@@ -6,29 +6,56 @@ body {
     min-height: 400px;
     margin-bottom: 100px;
     clear: both;
-};
-
+    background-image: url("https://wallpaperfm.com/img/original/9/2/7/52108.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: ;
+    font-family: 'Coustard', serif;
+    font-size: 400;
+}
 
 .nav-list {
-    list-style-type: none;
+    /* list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: gold;
-    
-};
+    height: 80px; 
+    width: 100%;
+    overflow: hidden;
+    position: fixed; */
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gold;
+    width: 100%;
+    position: fixed;
+}
+
+
 
 li {
     float: left;
-};
+    border-right: 1px solid #bbb;
+}
 
 li a {
+    /* display: block;
+    width: 80px;
+    height: 80px; */
+    background-color: gold; 
+    
     display: block;
-    width: 60px;
-};
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
 li a:hover {
     background-color: red;
-};
+}
 
 footer {
     width: 100%;
@@ -36,12 +63,35 @@ footer {
     color: white;
     background-color: grey;
     float: inline-end;
-};
+}
 
 .card {
-    border: 40px solid white;
-};
+    border: 10px solid red;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 400;
+}
 
 img {
-    height: 100px;
-};
+    height: 250px;
+    position: relative;
+    border: 2px solid gold;
+    margin-top: 50px;
+}
+
+section {
+    border: 10px solid red;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 50px 75px;
+    color: gold;
+}
+p {
+    padding: 25px;
+}
