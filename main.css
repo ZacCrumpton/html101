@@ -1,0 +1,45 @@
+body{
+    background-color:black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+};
+
+nav{
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+};
+
+li {
+    float: left;
+};
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+};
+
+li a:hover {
+    background-color: red;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: grey;
+    float: inline-end;
+};
