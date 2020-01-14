@@ -1,4 +1,4 @@
-body{
+body {
     background-color:black;
     color: white;
     margin: 0;
@@ -9,7 +9,7 @@ body{
 };
 
 
-.nav-list{
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -44,4 +44,4 @@ footer {
 
 img {
     height: 100px;
-}
+};
