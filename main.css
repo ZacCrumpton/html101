@@ -8,9 +8,6 @@ body{
     clear: both;
 };
 
-nav{
-
-}
 
 .nav-list{
     list-style-type: none;
@@ -26,16 +23,12 @@ li {
 
 li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
+    width: 60px;
 };
 
 li a:hover {
     background-color: red;
-}
+};
 
 footer {
     width: 100%;
@@ -44,3 +37,11 @@ footer {
     background-color: grey;
     float: inline-end;
 };
+
+.card {
+    border: 40px solid white;
+};
+
+img {
+    height: 100px;
+}
